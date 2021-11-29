@@ -16,7 +16,7 @@
   --background-modifier-hover: var(--background-alt);
   --background-modifier-active: var(--background-light);
   --channels-default: var(--text-normal);
-  --version: "2.0.13";
+  --version: "0.0.4";
 }
 
 .theme-light,
@@ -39,6 +39,7 @@ html.theme-light .force-theme.theme-light {
   --scrollbar-colour: var(--background-light);
   --edit-message-box: var(--background-light);
   --message-background: var(--background-light);
+  --accent: rgb(214, 92, 92);
 }
 
 .theme-dark,
@@ -62,6 +63,7 @@ html.theme-dark .force-theme.theme-light {
   --edit-message-box: var(--background-light);
   --message-background: var(--background-alt);
   --header-primary: var(--text-focus);
+  --accent: rgb(179, 77, 77);
 }
 
 #app-mount .bg-h5JY_x {
