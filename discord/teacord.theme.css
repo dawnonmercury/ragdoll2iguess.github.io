@@ -69,12 +69,12 @@ html.theme-dark .force-theme.theme-light {
 }
 
 ::-moz-selection {
-  background: rgba(var(--accent), 0.5);
+  background: rgba(var(--accent), 0.9);
   color: #fff;
 }
 
 ::selection {
-  background: rgba(var(--accent), 0.5);
+  background: rgba(var(--accent), 0.9);
   color: #fff;
 }
 
@@ -170,7 +170,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-  background: rgb(var(--accent), 0.9);
+  background: rgb(var(--accent), 0.6);
 }
 #app-mount .childWrapper-anI2G9 {
   background: var(--background-light);
@@ -221,7 +221,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   top: 1px;
   height: calc(100% - 2px);
   width: 4px;
-  background: rgb(var(--accent), 0.9);
+  background: rgb(var(--accent), 0.6);
   z-index: 1;
 }
 #app-mount .wrapper-2jXpOf.typeThread-3ESTm- .content-1x5b-n {
@@ -239,7 +239,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   z-index: 2;
 }
 #app-mount .avatarSpeaking-2IGMRN {
-  box-shadow: inset 0 0 0 2px rgba(var(--accent), 0.9), inset 0 0 0 3px var(--background);
+  box-shadow: inset 0 0 0 2px rgba(var(--accent), 0.6), inset 0 0 0 3px var(--background);
 }
 
 #app-mount .selected-31Nl7x .header-2V-4Sw {
@@ -269,7 +269,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   content: none;
 }
 #app-mount .operations-36ENbA > a {
-  color: rgb(var(--accent), 0.9);
+  color: rgb(var(--accent), 0.6);
 }
 
 #app-mount .form-2fGMdU:before {
@@ -320,7 +320,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   padding: 0 6px;
 }
 #app-mount .message-2qnXI6 .button-1ZiXG9:hover {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
   color: #fff;
 }
 #app-mount .message-2qnXI6 .button-1ZiXG9.dangerous-2r8KxV:hover {
@@ -431,11 +431,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   color: var(--text-muted);
 }
 #app-mount .wrapper-3WhCwL {
-  background: rgba(var(--accent), 0.5);
-  color: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.9);
+  color: rgba(var(--accent), 0.6);
 }
 #app-mount .wrapper-3WhCwL:hover, #app-mount .wrapper-3WhCwL.popout-open {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
   color: #fff;
 }
 #app-mount .wrapper-3vR61M {
@@ -505,11 +505,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background);
 }
 #app-mount .reaction-1hd86g.reactionMe-wv5HKu {
-  background: rgba(var(--accent), 0.5);
-  border-color: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.9);
+  border-color: rgba(var(--accent), 0.6);
 }
 #app-mount .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
-  color: rgba(var(--accent), 0.9);
+  color: rgba(var(--accent), 0.6);
 }
 
 #app-mount .divider-JfaTT5.isUnread-3Ef-o9 {
@@ -523,7 +523,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .divider-JfaTT5.hasContent-1cNJDh {
   margin: var(--message-spacing) 0 var(--message-spacing) 20px;
 }
-#app-mount .divider-JfaTT5.hasContent-1cNJDh .content-1o0f9g {
+#app-mount .divider-JfaTT5.hasContent-1cNJDh .content-1o0.6g {
   background: var(--background-light);
   padding: 4px 8px;
   line-height: normal;
@@ -546,7 +546,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .newMessagesBar-265mhP {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
   border-radius: var(--border-radius);
   top: 10px;
   left: 26px;
@@ -597,7 +597,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .member-3-YXUe .botTagRegular-2HEhHi {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
 }
 #app-mount .member-3-YXUe:hover .layout-2DM8Md {
   background: var(--background-alt);
@@ -606,7 +606,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .roleColor-rz2vM0,
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .activity-2Gy-9S,
@@ -620,7 +620,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .botTagRegular-2HEhHi {
   background: #fff;
-  color: rgba(var(--accent), 0.9);
+  color: rgba(var(--accent), 0.6);
 }
 
 #app-mount .userPopout-xaxa6l {
@@ -690,7 +690,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   line-height: normal;
 }
 #app-mount .item-1tOPte:active, #app-mount .item-1tOPte.focused-3afm-j:not(.colorDanger-2qLCe1) {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
 }
 #app-mount .item-1tOPte.colorPremium-p4p7qO {
   color: rgba(var(--discord-nitro)/1);
@@ -789,7 +789,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-color: var(--background-light);
 }
 #app-mount .container-2XeR5Z:focus-within {
-  border-color: rgba(var(--accent), 0.9);
+  border-color: rgba(var(--accent), 0.6);
 }
 #app-mount .wrapper-2Gsate {
   background: var(--background);
@@ -855,7 +855,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   left: 0;
   width: 4px;
   height: 100%;
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
 }
 
 #app-mount .container-1D34oG {
@@ -949,7 +949,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
 }
 #app-mount .pageWrapper-1PgVDX {
   background: var(--background);
@@ -979,7 +979,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91 {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
   transition: box-shadow 0.2s ease;
 }
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
@@ -993,7 +993,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .button-1YfofB.buttonColor-7qQbGO:hover {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
   color: #fff;
 }
 
@@ -1006,7 +1006,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-color: var(--background-light);
 }
 #app-mount .input-cIJ7To:focus {
-  border-color: rgba(var(--accent), 0.9);
+  border-color: rgba(var(--accent), 0.6);
 }
 
 #app-mount .css-gvi9bl-control,
@@ -1025,7 +1025,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .css-6fzn47-control {
   background: var(--background);
   border-radius: var(--border-radius);
-  border-color: rgba(var(--accent), 0.9);
+  border-color: rgba(var(--accent), 0.6);
 }
 #app-mount .popout-VcNcHB {
   background: var(--background-dark);
@@ -1041,7 +1041,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-alt);
 }
 #app-mount .option-3KoAJB[aria-selected=true] {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
   color: #fff;
 }
 #app-mount .option-3KoAJB[aria-selected=true] .selectedIcon-3uS11H {
@@ -1055,7 +1055,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] .radioBar-bMNUI- {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
   color: #fff;
 }
 #app-mount [role=radiogroup] .item-26Dhrx[aria-checked=true] .radioBar-bMNUI-[style*="--radio-bar-accent-color"] {
@@ -1072,7 +1072,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .children-rWhLdy > .marginBottom40-2vIwTv .item-26Dhrx[aria-checked=true],
 #app-mount .marginBottom20-32qID7 .item-26Dhrx[aria-checked=true] {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
   color: #fff;
 }
 #app-mount .children-rWhLdy > .marginBottom40-2vIwTv .item-26Dhrx[aria-checked=true] .radioIconForeground-XwlXQN,
@@ -1081,12 +1081,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .barFill-23-gu- {
-  background: rgba(var(--accent), 0.9);
+  background: rgba(var(--accent), 0.6);
 }
 
 #app-mount .checkboxWrapper-SkhIWG.checked-3_4uQ9 .checkbox-1ix_J3 {
-  border-color: rgba(var(--accent), 0.9) !important;
-  background: rgba(var(--accent), 0.9) !important;
+  border-color: rgba(var(--accent), 0.6) !important;
+  background: rgba(var(--accent), 0.6) !important;
 }
 #app-mount .checkboxWrapper-SkhIWG.checked-3_4uQ9 .checkbox-1ix_J3 path {
   fill: #fff !important;
@@ -1095,20 +1095,20 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .checkboxWrapper-SkhIWG.row-3QHy4I.checked-3_4uQ9 .checkbox-1ix_J3 {
-  background: rgba(var(--accent), 0.9) !important;
-  border-color: rgba(var(--accent), 0.9) !important;
+  background: rgba(var(--accent), 0.6) !important;
+  border-color: rgba(var(--accent), 0.6) !important;
 }
 #app-mount [role=menuitemcheckbox][aria-checked=true] .checkbox-3s5GYZ {
-  color: rgba(var(--accent), 0.9);
+  color: rgba(var(--accent), 0.6);
 }
 #app-mount [role=menuitemcheckbox][aria-checked=true]:hover .checkbox-3s5GYZ {
   color: #fff;
 }
 #app-mount [role=menuitemcheckbox][aria-checked=true]:hover .check-1JyqgN {
-  color: rgba(var(--accent), 0.9);
+  color: rgba(var(--accent), 0.6);
 }
 #app-mount [role=menuitemradio][aria-checked=true] .radioSelection-1HmrQS {
-  color: rgba(var(--accent), 0.9);
+  color: rgba(var(--accent), 0.6);
 }
 #app-mount [role=menuitemradio][aria-checked=true]:hover .radioSelection-1HmrQS {
   color: #fff;
