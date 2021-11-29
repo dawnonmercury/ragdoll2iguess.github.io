@@ -170,7 +170,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-  background: rgb(var(--accent), 0.6);
+  background: rgba(var(--accent), 0.6);
 }
 #app-mount .childWrapper-anI2G9 {
   background: var(--background-light);
@@ -179,7 +179,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .circleIconButton-1XqULR:hover, #app-mount .circleIconButton-1XqULR.selected-3mFF3I {
-  background: rgb(var(--discord-green)/1);
+  background: rgba(var(--discord-green)/1);
 }
 
 #app-mount .expandedFolderBackground-3ZDF05 {
@@ -221,7 +221,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   top: 1px;
   height: calc(100% - 2px);
   width: 4px;
-  background: rgb(var(--accent), 0.6);
+  background: rgba(var(--accent), 0.6);
   z-index: 1;
 }
 #app-mount .wrapper-2jXpOf.typeThread-3ESTm- .content-1x5b-n {
@@ -269,7 +269,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   content: none;
 }
 #app-mount .operations-36ENbA > a {
-  color: rgb(var(--accent), 0.6);
+  color: rgba(var(--accent), 0.6);
 }
 
 #app-mount .form-2fGMdU:before {
@@ -553,7 +553,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   right: 26px;
 }
 #app-mount .jumpToPresentBar-G1R9s6 {
-  background: var(--background-light);
+  background: var(--background-dark);
   opacity: 1;
   border-radius: var(--border-radius);
   left: auto;
