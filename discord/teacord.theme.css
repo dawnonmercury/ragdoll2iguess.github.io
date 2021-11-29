@@ -660,7 +660,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   top: 50%;
   transform: translateY(-50%);
   background: inherit;
-  opacity: 0.3;
+  opacity: 1;
   z-index: -1;
 }
 #app-mount .userPopout-xaxa6l .note-1oo11U {
