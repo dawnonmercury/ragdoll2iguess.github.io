@@ -548,7 +548,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .newMessagesBar-265mhP {
-  background: rgba(var(--accent), 0.9);
+  background: var(--accent);
   border-radius: var(--border-radius);
   top: 10px;
   left: 26px;
@@ -599,7 +599,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .member-3-YXUe .botTagRegular-2HEhHi {
-  background: rgba(var(--accent), 0.9);
+  background: var(--accent), 0.9);
 }
 #app-mount .member-3-YXUe:hover .layout-2DM8Md {
   background: var(--background-alt);
@@ -608,7 +608,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
-  background: rgba(var(--accent), 0.9);
+  background: var(--accent);
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .roleColor-rz2vM0,
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .activity-2Gy-9S,
@@ -622,7 +622,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .botTagRegular-2HEhHi {
   background: #fff;
-  color: rgba(var(--accent), 0.9);
+  color: var(--accent);
 }
 
 #app-mount .userPopout-xaxa6l {
