@@ -22,21 +22,21 @@
 .theme-light,
 html.theme-light #app-mount .theme-light .root-1gCeng,
 html.theme-light .force-theme.theme-light {
-  --background-light: #fff;
-  --background-light-alt: #fff;
-  --background: #edf2f7;
-  --background-alt: #f7fafc;
-  --background-dark: #e2e8f0;
-  --text-normal: #2d3748;
-  --text-muted: #718096;
-  --text-focus: #1a202c;
+  --background-light: #b6a8a2;
+  --background-light-alt: #dad3d0;
+  --background: #ede6e3;
+  --background-alt: #ede6e3;
+  --background-dark: #b6a8a2;
+  --text-normal: #6c605a;
+  --text-muted: #b6a8a2;
+  --text-focus: #574b45;
   --font-weight-light: 400;
   --font-weight-normal: 500;
   --font-weight-semibold: 700;
   --font-weight-bold: 700;
-  --box-shadow: 0 4px 9px rgba(0 0 0 / 1);
-  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 1);
-  --scrollbar-colour: rgba(0 0 0 / 1);
+  --box-shadow: 0 4px 9px rgb(0 0 0);
+  --box-shadow-alt: 0 2px 5px rgb(0 0 0);
+  --scrollbar-colour: rgba(0 0 0);
   --edit-message-box: var(--background-light);
   --message-background: var(--background-light);
 }
@@ -44,20 +44,20 @@ html.theme-light .force-theme.theme-light {
 .theme-dark,
 html.theme-dark #app-mount .theme-light .root-1gCeng,
 html.theme-dark .force-theme.theme-light {
-  --background-light: #22262e;
-  --background-light-alt: #1f2329;
-  --background: #171a1f;
-  --background-alt: #1b1f25;
-  --background-dark: #131519;
-  --text-normal: #aeafb1;
-  --text-muted: #515357;
-  --text-focus: #fff;
+  --background-light: #3a3a3a;
+  --background-light-alt: #3f3f3f;
+  --background: #2f2f2f;
+  --background-alt: #2f2f2f;
+  --background-dark: #3a3a3a;
+  --text-normal: #9e9e9e;
+  --text-muted: #544d45;
+  --text-focus: #e7e7e7;
   --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-semibold: 500;
   --font-weight-bold: 700;
-  --box-shadow: 0 4px 9px rgba(0 0 0 / 1);
-  --box-shadow-alt: 0 2px 5px rgba(0 0 0 / 1);
+  --box-shadow: 0 4px 9px rgb(0 0 0);
+  --box-shadow-alt: 0 2px 5px rgb(0 0 0);
   --scrollbar-colour: var(--background-light);
   --edit-message-box: var(--background-light);
   --message-background: var(--background-alt);
@@ -69,12 +69,12 @@ html.theme-dark .force-theme.theme-light {
 }
 
 ::-moz-selection {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
   color: #fff;
 }
 
 ::selection {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
   color: #fff;
 }
 
@@ -239,7 +239,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   z-index: 2;
 }
 #app-mount .avatarSpeaking-2IGMRN {
-  box-shadow: inset 0 0 0 2px rgba(var(--accent), 1), inset 0 0 0 3px var(--background);
+  box-shadow: inset 0 0 0 2px var(--accent), inset 0 0 0 3px var(--background);
 }
 
 #app-mount .selected-31Nl7x .header-2V-4Sw {
@@ -320,14 +320,14 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   padding: 0 6px;
 }
 #app-mount .message-2qnXI6 .button-1ZiXG9:hover {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
   color: #fff;
 }
 #app-mount .message-2qnXI6 .button-1ZiXG9.dangerous-2r8KxV:hover {
-  background: rgba(var(--discord-red)/1);
+  background: var(--discord-red);
 }
 #app-mount .cozy-3raOZG {
-  background: var(--background-dark);
+  background: var(--background-light);
   padding-top: var(--message-padding);
   padding-bottom: var(--message-padding);
   padding-left: 0;
@@ -385,7 +385,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-radius: 0 var(--border-radius) 0 0;
   height: 100%;
   width: calc(100% - var(--message-padding));
-  border-left: 2px solid rgba(var(--discord-yellow)/1);
+  border-left: 2px solid var(--discord-yellow);
   background: var(--background-mentioned);
   pointer-events: none;
 }
@@ -400,7 +400,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   left: -5px;
   height: 100%;
   width: calc(100% - var(--message-padding) + 5px);
-  border-left: 2px solid rgba(var(--discord-yellow)/1);
+  border-left: 2px solid var(--discord-yellow);
   background: var(--background-mentioned);
   border-radius: 0 0 var(--border-radius) 0;
 }
@@ -431,11 +431,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   color: var(--text-muted);
 }
 #app-mount .wrapper-3WhCwL {
-  background: rgba(var(--accent), 1);
-  color: rgba(var(--accent), 1);
+  background: var(--accent);
+  color: var(--accent);
 }
 #app-mount .wrapper-3WhCwL:hover, #app-mount .wrapper-3WhCwL.popout-open {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
   color: #fff;
 }
 #app-mount .wrapper-3vR61M {
@@ -505,11 +505,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background);
 }
 #app-mount .reaction-1hd86g.reactionMe-wv5HKu {
-  background: rgba(var(--accent), 1);
-  border-color: rgba(var(--accent), 1);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 #app-mount .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
-  color: rgba(var(--accent), 1);
+  color: var(--accent);
 }
 
 #app-mount .divider-JfaTT5.isUnread-3Ef-o9 {
@@ -546,7 +546,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .newMessagesBar-265mhP {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
   border-radius: var(--border-radius);
   top: 10px;
   left: 26px;
@@ -597,7 +597,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .member-3-YXUe .botTagRegular-2HEhHi {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
 }
 #app-mount .member-3-YXUe:hover .layout-2DM8Md {
   background: var(--background-alt);
@@ -606,7 +606,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .roleColor-rz2vM0,
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .activity-2Gy-9S,
@@ -620,7 +620,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 #app-mount .member-3-YXUe.selected-aXhQR6 .layout-2DM8Md .botTagRegular-2HEhHi {
   background: #fff;
-  color: rgba(var(--accent), 1);
+  color: var(--accent);
 }
 
 #app-mount .userPopout-xaxa6l {
@@ -690,14 +690,14 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   line-height: normal;
 }
 #app-mount .item-1tOPte:active, #app-mount .item-1tOPte.focused-3afm-j:not(.colorDanger-2qLCe1) {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
 }
 #app-mount .item-1tOPte.colorPremium-p4p7qO {
-  color: rgba(var(--discord-nitro)/1);
+  color: var(--discord-nitro);
 }
 #app-mount .item-1tOPte.colorPremium-p4p7qO.focused-3afm-j {
   color: #fff;
-  background: rgba(var(--discord-nitro)/1);
+  background: var(--discord-nitro);
 }
 
 #app-mount .messagesPopoutWrap-1MQ1bW {
@@ -789,7 +789,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-color: var(--background-light);
 }
 #app-mount .container-2XeR5Z:focus-within {
-  border-color: rgba(var(--accent), 1);
+  border-color: var(--accent);
 }
 #app-mount .wrapper-2Gsate {
   background: var(--background);
@@ -855,7 +855,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   left: 0;
   width: 4px;
   height: 100%;
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
 }
 
 #app-mount .container-1D34oG {
@@ -949,7 +949,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
 }
 #app-mount .pageWrapper-1PgVDX {
   background: var(--background);
@@ -979,11 +979,11 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91 {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
   transition: box-shadow 0.2s ease;
 }
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 1);
+  box-shadow: inset 0 0 0 100vmax rgb(0, 0, 0);
 }
 #app-mount .lookOutlined-3sRXeN.colorWhite-rEQuAQ {
   border-color: var(--text-normal);
@@ -993,7 +993,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .button-1YfofB.buttonColor-7qQbGO:hover {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
   color: #fff;
 }
 
@@ -1006,7 +1006,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   border-color: var(--background-light);
 }
 #app-mount .input-cIJ7To:focus {
-  border-color: rgba(var(--accent), 1);
+  border-color: var(--accent);
 }
 
 #app-mount .css-gvi9bl-control,
@@ -1025,7 +1025,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 #app-mount .css-6fzn47-control {
   background: var(--background);
   border-radius: var(--border-radius);
-  border-color: rgba(var(--accent), 1);
+  border-color: var(--accent);
 }
 #app-mount .popout-VcNcHB {
   background: var(--background-dark);
@@ -1041,7 +1041,7 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-alt);
 }
 #app-mount .option-3KoAJB[aria-selected=true] {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
   color: #fff;
 }
 #app-mount .option-3KoAJB[aria-selected=true] .selectedIcon-3uS11H {
@@ -1081,12 +1081,12 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
 }
 
 #app-mount .barFill-23-gu- {
-  background: rgba(var(--accent), 1);
+  background: var(--accent);
 }
 
 #app-mount .checkboxWrapper-SkhIWG.checked-3_4uQ9 .checkbox-1ix_J3 {
-  border-color: rgba(var(--accent), 1) !important;
-  background: rgba(var(--accent), 1) !important;
+  border-color: var(--accent) !important;
+  background: var(--accent) !important;
 }
 #app-mount .checkboxWrapper-SkhIWG.checked-3_4uQ9 .checkbox-1ix_J3 path {
   fill: #fff !important;
@@ -1095,20 +1095,20 @@ html, span:not([class*=spinner-]):not([class*=spinnerItem]) {
   background: var(--background-light);
 }
 #app-mount .checkboxWrapper-SkhIWG.row-3QHy4I.checked-3_4uQ9 .checkbox-1ix_J3 {
-  background: rgba(var(--accent), 1) !important;
-  border-color: rgba(var(--accent), 1) !important;
+  background: var(--accent) !important;
+  border-color: var(--accent) !important;
 }
 #app-mount [role=menuitemcheckbox][aria-checked=true] .checkbox-3s5GYZ {
-  color: rgba(var(--accent), 1);
+  color: var(--accent);
 }
 #app-mount [role=menuitemcheckbox][aria-checked=true]:hover .checkbox-3s5GYZ {
   color: #fff;
 }
 #app-mount [role=menuitemcheckbox][aria-checked=true]:hover .check-1JyqgN {
-  color: rgba(var(--accent), 1);
+  color: var(--accent);
 }
 #app-mount [role=menuitemradio][aria-checked=true] .radioSelection-1HmrQS {
-  color: rgba(var(--accent), 1);
+  color: var(--accent);
 }
 #app-mount [role=menuitemradio][aria-checked=true]:hover .radioSelection-1HmrQS {
   color: #fff;
