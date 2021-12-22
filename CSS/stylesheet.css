@@ -2,6 +2,19 @@ body {
      	/*This should be where I can color everything*/
 	background-color: #2a2a2a;
 	color: #bebebe;
-	border-right: 4px;
-	border-color: #e7e7e7;
+    border-style: dashed;
+    font-family: Monospace, sans-serif;
+    padding: 25px 50px 75px 50px;
+}
+
+a:link {
+    background-color: #4a4d71;
+    color: #bebebe;
+    padding: 3px;
+}
+
+a:visited {
+    background-color: #574b45;
+    color: #bebebe;
+    padding: 3px;
 }
