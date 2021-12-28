@@ -11,10 +11,16 @@ a:link {
     background-color: #4a4d71;
     color: #bebebe;
     padding: 3px;
+    text-decoration: none;
 }
 
 a:visited {
     background-color: #574b45;
     color: #bebebe;
     padding: 3px;
+    text-decoration: none;
+}
+
+div.a {
+    line-height: 1.8;
 }
